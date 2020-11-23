@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+   border-style: solid;
+   
+   }
+   
+   .app-container {
+     display: flex;
+     margin-top: 10%;
+     margin-left: 470px;
+   
+    
+   }
+   
+   
+   
+   #display-profile {
+     display: inline-flexbox;
+     margin-left: 470px;
+   }
+   

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GitHub User API</title>
+    <link
+      rel="stylesheet"
+      href="https://bootswatch.com/4/darkly/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  
+    <main role="main" class="container"></main>
+    <section class="app-container">
+
+        <form id="search-form">
+            <h1>Search GitHub By User</h1>
+            <p>Enter a User to search GitHub user's Profile/Repos</p>
+            <input type="text" id="listen-user-input"
+             class="form-control" placeholder="GitHub User"/>
+             <input id="click-submit" class="btn btn=primary"
+             type="submit" value="Submit"/>
+             </form>
+            </section>
+            <section class="display-results-container hidden">
+            <div id="display-profile">
+
+            </div>
+        </section>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
